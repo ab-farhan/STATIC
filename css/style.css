@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+ol,
+ul {
+	list-style-type: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+h1 {
+	font-size: 120px;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+}
+
+h3 {
+	font-size: 40px;
+	text-transform: capitalize;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color: #2d3950;
+	padding-bottom: 20px;
+}
+
+h4 {
+	font-size: 22px;
+	text-transform: capitalize;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color: #2d3950;
+
+}
+
+p {
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #999999;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #fff;
+	transition: all linear .4s;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn,
+.nav-link,
+.nav-item,
+.nav-brand,
+.lead,
+p,
+ul,
+li,
+.navbar,
+.navbar-brand {
+	margin: 0;
+	padding: 0;
+}
+
+.s-py {
+	padding: 75px 0 100px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(69, 73, 204)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-light .navbar-toggler {
+    color: rgba(4, 6, 54, 0.9);
+border-color: #2b1fc3;
+}
+/*header part start here  */
+.fix {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.navbar {
+	padding: 10px 0;
+}
+
+.hdr .nav-item {
+	padding: 0 8px;
+}
+
+.hdr .nav-item a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000 !important;
+	font-size: 14px;
+}
+
+/*header part end here  */
+
+/*banner_part start here  */
+.banner_part {
+	background: url(../image/baner.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: scale(1);
+}
+
+.banner_overlay {
+	padding: 200px 0 90px;
+	background: rgba(49, 41, 41, 0.4);
+}
+
+.banner_cont h1 {
+	position: relative;
+}
+
+.banner_cont h1::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #15a4fa;
+	margin: 0 auto;
+}
+
+.banner_cont p {
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.banner_cont a.btn {
+	display: inline-block;
+	padding: 15px 30px;
+	margin: 60px 0 160px;
+	font-size: 18px;
+	color: #fff;
+
+}
+
+.banner_cont .arrow {
+	font-size: 40px;
+}
+
+/*banner_part end here  */
+
+/*about_part start here  */
+.about_part {
+	background: #f6f9f9;
+}
+
+/*about_part end here  */
+
+/*service_part start here  */
+.ser_icon i {
+	height: 100px;
+	width: 100px;
+	background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+	line-height: 100px;
+	font-size: 35px;
+	color: #fff;
+}
+
+.ser_cont h4 {
+	padding: 25px 0 15px;
+}
+
+.ser_cont p {
+	font-size: 15px;
+}
+
+/*service_part end here  */
+
+/*  protfolio_part start here */
+.protfolio_part {
+	background: #f9f9f9;
+}
+
+.gly {
+	position: relative;
+	margin-bottom: 30px;
+
+}
+
+.gly img {
+	width: 100%;
+}
+
+.gly_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(63, 223, 252, 0.75);
+	transform: scale(0);
+	transition: .4s;
+}
+
+.gly_overlay a {
+	height: 40px;
+	width: 40px;
+	border: 1px solid #fff;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 40px;
+	margin: 0 5px;
+}
+
+.gly:hover .gly_overlay {
+	transform: scale(1);
+}
+
+/*  protfolio_part end here */
+
+/*contract_part start here  */
+.contract_part {
+	background: url(../image/01-Strict.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.contact_overlay {
+	background: rgba(45, 57, 80, 0.8);
+}
+
+.contact input {
+	padding: 15px 10px;
+}
+
+.contract_part .common_heading p,
+.contact input::placeholder,
+.contact textarea::placeholder {
+	color: #fff;
+	font-size: 15px;
+}
+
+.contract_part .common_heading h3 {
+	color: #fff;
+}
+
+.contact a.btn {
+	padding: 10px 45px;
+	font-size: 18px;
+}
+
+.contact .form-check-input {
+	height: 18px;
+	width: 18px;
+
+}
+
+/*contract_part end here  */
+
+
+/*copy_right part start here  */
+.copy span {
+	font-size: 14px;
+
+	color: #999999;
+}
+
+.copy ul li a {
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	border-radius: 2px;
+
+}
+
+/*copy_right part end here  */
+
+
+/*back to top  */
+#button {
+
+	position: fixed;
+	bottom: 5%;
+	left: 5%;
+	transition: background-color .3s, opacity .5s, visibility .5s;
+	opacity: 0;
+	z-index: 99999;
+}
+
+a#button  {
+	display: inline-block;
+	background-color: #03013c;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 50px;
+	font-size: 35px;
+}
+
+
+#button.show {
+	opacity: 1;
+	visibility: visible;
+}

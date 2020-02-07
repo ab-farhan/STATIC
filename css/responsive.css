@@ -1,0 +1,191 @@
+/*common css */
+@media (min-width: 320px) and (max-width: 991px) {
+	.navbar ul {
+		background: rgba(118, 202, 252, 0.7);
+		margin-top: 10px;
+		border-radius: 5px;
+	}
+
+	.hdr .nav-item a {
+		padding: 7px 0;
+		text-align: center;
+
+	}
+
+	.hdr .nav-item:hover a {
+		background: #2d3950;
+		color: #fff !important;
+		border-radius: 3px;
+	}
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575px) {
+	h1 {
+		font-size: 80px;
+
+	}
+
+	h3 {
+		font-size: 30px;
+
+		padding-bottom: 20px;
+	}
+
+	h4 {
+		font-size: 22px;
+
+	}
+
+	p {
+		font-size: 16px;
+
+	}
+
+	.s-py {
+		padding: 52px 0 75px;
+	}
+
+	.navbar-expand-lg > .container,
+	.navbar-expand-lg > .container-fluid {
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+
+	.navbar ul {
+		margin-top: 5px;
+
+	}
+
+	.hdr .nav-item a {
+		padding: 5px 0;
+
+	}
+
+
+	.banner_overlay {
+		padding: 90px 0 30px;
+		background: rgba(49, 41, 41, 0.4);
+	}
+
+	.banner_cont p {
+		font-size: 18px;
+		padding-top: 25px;
+	}
+
+	.banner_cont a.btn {
+		padding: 13px 25px;
+		margin: 42px 0 67px;
+		font-size: 16px;
+
+	}
+
+	.contact a.btn {
+		padding: 10px 33px;
+		font-size: 16px;
+	}
+
+	.form-check-label {
+		font-size: 14px;
+	}
+
+
+
+	.copy ul li a {
+		height: 25px;
+		width: 25px;
+		line-height: 25px;
+		margin-left: 2px;
+	}
+
+	#button {
+		left: 1%;
+	}
+
+	a#button {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 18px;
+	}
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+	h3 {
+		font-size: 35px;
+	}
+
+	p {
+		font-size: 16px;
+
+	}
+
+	.s-py {
+		padding: 60px 0 85px;
+	}
+
+
+
+	.banner_overlay {
+		padding: 100px 0 60px;
+	}
+
+	.banner_cont a.btn {
+		padding: 15px 30px;
+		margin: 50px 0 100px;
+	}
+
+	.copy ul li a {
+
+		margin-left: 4px;
+	}
+
+	#button {
+		left: 2%;
+	}
+
+	a#button {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 22px;
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+
+	.banner_overlay {
+		padding: 110px 0 74px;
+		background:
+			rgba(49, 41, 41, 0.4);
+	}
+	#button {
+		left: 2%;
+	}
+
+	a#button {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 22px;
+	}
+
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	...
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	...
+}
